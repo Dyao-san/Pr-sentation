@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
+
+.noto {
+    font-family: 'Noto sans Jp',sans-serif;
+}
+
+.oswald{
+    font-family: 'Oswald',sans-serif;
+}
+
+
+
+
+.cc-navbar {
+    background-color: rgba(0,0,0,0.55);
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+}
+.cc-navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color .3s ease; /*Nav bar transparante par rapport au reste */
+}
+
+.cc-navbar .nav-link:hover {
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+.banner {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/terr.gif) center center fixed no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.banner .banner-desc {
+    font-size: 48px;
+    font-weight: 400;
+    color: white;
+}
+   
+
+.btn-order {
+    color: var(--bs-teal);
+    border-color:var(--bs-teal) ;
+    transition: 0.5s;
+}
+
+.btn-order:hover,
+.btn-order:active{
+    color: white;
+    background-color: var(--bs-teal);
+}
